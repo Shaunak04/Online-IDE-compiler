@@ -1,0 +1,102 @@
+*{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    z-index: -1;
+    height: 100%;
+    min-height: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-image: url("b1.png");
+    overflow-x: hidden;
+
+}
+h1{
+    display: block;
+    margin: 0px auto;
+    font-size: 7vh;
+    text-align:center;
+    backdrop-filter: blur(10px);
+    font-family: monospace;
+    color:white;
+    background-color: rgba(0, 0, 0, 0.411);
+}
+#code{
+    padding:10px;
+    border-radius: 20px;
+    border: 1px solid orange;
+    filter :drop-shadow(0 0 10px rgb(221, 124, 34));
+    height: max-content;
+    margin: 0vh auto!important;
+    background-color: #383733;
+    width: 75vw;
+}
+#code form select{
+    display: block;
+    background-color: #383733;
+    font-size: 0.9em;
+    color: white;
+    margin: -5px auto;
+    border: 0.01px solid orange;
+    border-radius: 3px;
+    padding:5px;
+}
+textarea{
+    resize: none;
+    max-height: 348px;
+    overflow-y:auto;
+    color: white;
+    margin-top: 10px;
+    border-radius: 20px;
+    padding: 18px;
+    background-color: #383733;
+    width: 100%;
+    outline:none;
+}
+
+textarea:hover,textarea:active{
+    border: 0.01px solid orange;
+    outline:none;
+}
+#or{
+    color: orange;
+}
+#me{
+    position: fixed;
+    font-family: monospace;
+    color: orange;
+    bottom: 5px;
+    right: 9px;
+}
+.butt{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+#submit{
+    border:0.5px solid rgb(255, 153, 0);
+    margin:10px 20px 20px;
+    font-size: 1.2em;
+    border-radius:10px;
+    background-color: rgba(255, 166, 0, 0.911);
+    color: white;
+    cursor:pointer;
+    padding: 12px 29px;
+    width: 130px;
+}
+#reset{
+    border:0.5px solid rgb(255, 153, 0);
+    margin:10px 20px 20px;
+    cursor:pointer;
+    font-size: 1.2em;
+    width: 130px;
+    border-radius:10px;
+    background-color: rgba(255, 166, 0, 0.911);
+    color: white;
+    padding: 12px 29px;
+}
